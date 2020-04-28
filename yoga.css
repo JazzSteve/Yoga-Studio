@@ -198,6 +198,10 @@ figure{
 	letter-spacing:2px
 }
 
+.footer-brand h6{
+	color: #007bff;
+}
+
 .site-footer hr{
   border-top-color:#bbb;
   opacity:0.5;
