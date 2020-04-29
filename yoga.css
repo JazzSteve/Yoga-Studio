@@ -223,6 +223,18 @@ figure{
 	display: inline-block;
 }
 
+.facebook i:hover {
+	color: #2459ad;
+}
+
+.twitter i:hover {
+	color: #689ced;
+}
+
+.instagram i:hover {
+	color: #f0264f;
+}
+
 .copright-text{
 	margin: 0;
 }
