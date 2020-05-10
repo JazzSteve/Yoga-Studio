@@ -295,6 +295,18 @@ figure{
 		padding-left: 0;
 	}
 
+	.facebook i {
+		color: #2459ad;
+	}
+
+	.twitter i {
+		color: #689ced;
+	}
+
+	.instagram i {
+		color: #f0295e;
+	}
+
 }
 
 
