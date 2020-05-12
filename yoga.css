@@ -63,7 +63,7 @@
 
 .navbar-list{
 	justify-content: flex-end;
-	margin-right: 70px;
+	margin-right: 37px;
 }
 
 .navbar li{
@@ -77,13 +77,13 @@
 }
 
 .navbar li a:hover{
-	background-color:#e6e2d8 ;
+	background-color:#007bff ;
 
 }
 
 /*About Section*/
 
-.container{
+.container {
 	width: 100%;
     padding-right: 15px;
     padding-left: 15px;
@@ -91,29 +91,29 @@
     margin-left: auto;
 }
 
-.row{
+.row {
 	display: flex;
 
 }
 
-.about-section .container{
+.about-section .container {
 	position: relative;
 }
 
-.about-section{
+.about-section {
 	padding: 5em 0;
 }
 
-h2{
+h2 {
 	color: #007bff;
 	font-size: 40px;
 }
 
-.yoga-about-img{
+.yoga-about-img {
 	position: relative;
 }
 
-figure{
+figure {
 	margin: 0 0 1rem;
 }
 
@@ -243,7 +243,7 @@ figure{
 
 /*Media Queries*/
 
-@media(max-width: 767px){
+@media(max-width: 767px) {
 	.navbar{
 		height: auto;
 	}
@@ -310,13 +310,25 @@ figure{
 }
 
 
-@media(max-width: 991px){
-	.gentle-card{
+@media(max-width: 991px) {
+	.gentle-card {
 		margin-left: auto;
 		margin-right: auto;
 	}
 
-	.card-img-top{
+	.card-img-top {
 		height: 195px;
+	}
+
+	.navbar-brand {
+		font-size: 20px;
+	}
+
+	.navbar-list {
+		margin-right: 0;
+	}
+
+	.navbar-nav .nav-link {
+		font-size: 18px;
 	}
 }
