@@ -117,47 +117,47 @@ figure {
 	margin: 0 0 1rem;
 }
 
-.about-text p{
+.about-text p {
 	line-height: 1.7;
 	color: gray;
 }
 
 /*Classes Section*/
-.card{
+.card {
 	margin-top: 20px;
 }
 
-.card-img-top{
+.card-img-top {
 	width: 100%;
     height: 15vw;
 	object-fit: cover;
 }
 
-.card-text{
+.card-text {
 	color: #757471;
 }
 
-.card-body{
+.card-body {
 	min-height: 298px;
 }
 
-.class-section .classes{
+.class-section .classes {
 	display: flex;
 	justify-content: center;
 }
 
 
 /*Team Section*/
-.team-section p{
+.team-section p {
 	color: #757471;
 }
 
-.team-section img{
+.team-section img {
 	height: 16.5rem;
 	object-fit: cover;
 }
 
-.team-member h3{
+.team-member h3 {
 	color: #000;
     margin: 0;
     bottom: 0;
@@ -198,28 +198,28 @@ figure {
 	letter-spacing:2px
 }
 
-.footer-brand h6{
+.footer-brand h6 {
 	color: #007bff;
 }
 
-.site-footer hr{
+.site-footer hr {
   border-top-color:#bbb;
   opacity:0.5;
 }
 
-.site-footer .social-icons a{
+.site-footer .social-icons a {
   line-height:40px;
   margin-left:20px;
   margin-right:0;
   font-size: 20px;
 }
 
-.social-icons{
+.social-icons {
 	list-style-type: none;
 	text-align: right;
 }
 
-.social-icons li{
+.social-icons li {
 	display: inline-block;
 }
 
@@ -235,7 +235,7 @@ figure {
 	color: #f0264f;
 }
 
-.copright-text{
+.copright-text {
 	margin: 0;
 }
 
@@ -330,5 +330,8 @@ figure {
 
 	.navbar-nav .nav-link {
 		font-size: 18px;
+	}
+	.about-text {
+		text-align: center;
 	}
 }
