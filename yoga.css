@@ -81,8 +81,7 @@
 }
 
 .navbar li a:hover{
-	background-color:#007bff ;
-	border-radius: 15px;
+	color:#007bff;
 
 }
 
